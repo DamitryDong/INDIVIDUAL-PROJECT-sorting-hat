@@ -1,0 +1,20 @@
+.Section1 {
+    border: 2px solid black !important;
+    background-color: beige;
+} 
+
+.Section2 {
+    border: 2px solid black !important; 
+    background-color: azure;
+}
+
+.section3 {
+    border: 2px solid black !important; 
+    background-color:aliceblue
+}
+
+#expellCards .card .card-body {
+    background-color: brown;
+    border: 2px solid black;
+    font-family:fantasy
+}
