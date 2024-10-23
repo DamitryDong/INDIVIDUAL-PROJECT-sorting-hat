@@ -18,3 +18,15 @@
     border: 2px solid black;
     font-family:fantasy
 }
+#cards .card #Gryffindor {
+    background-color: red;
+}
+#cards .card #Hufflepuff {
+    background-color: rgb(245, 182, 35);
+}
+#cards .card #Slytherin {
+    background-color: rgb(28, 163, 57);
+}
+#cards .card #Ravenclaw {
+    background-color: rgb(58, 96, 193);
+}
