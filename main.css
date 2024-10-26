@@ -1,20 +1,69 @@
 .Section1 {
-    border: 2px solid black !important;
-    background-color: beige;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(237, 237, 227);
+    padding-bottom: 20px;
+    padding-top: 20px;
 } 
 
 .Section2 {
-    border: 2px solid black !important; 
-    background-color: azure;
+    justify-content: space-evenly;
+    text-align: center;
+
+    background-color: rgb(237, 237, 227);
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .section3 {
+    justify-content: space-evenly;
+    text-align: center;
     border: 2px solid black !important; 
-    background-color:aliceblue
+    background-color:rgb(32, 41, 49);
+    color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #expellCards .card .card-body {
     background-color: brown;
     border: 2px solid black;
     font-family:fantasy
+}
+#cards .card #Gryffindor {
+    background-color: rgb(243, 138, 138);
+}
+#cards .card #Hufflepuff {
+    background-color: rgb(243, 200, 99);
+}
+#cards .card #Slytherin {
+    background-color: rgb(118, 240, 145);
+}
+#cards .card #Ravenclaw {
+    background-color: rgb(139, 167, 236);
+}
+
+#expellImage {
+    padding-top: 20px;
+    max-height: 400px !important;
+    max-width: 400px !important;
+    border: 2px solid beige
+}
+
+#expellCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    row-gap: 50px;
+    column-gap: 20px;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    row-gap: 50px;
+    column-gap: 20px;
 }

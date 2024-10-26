@@ -68,7 +68,7 @@ const cardsOnDom = (array, domLocation) => {
 
             `<div class="card" style="width: 15rem;" id="cards">
 
-                <div class="card-body">
+                <div class="card-body" id="${student.house}">
                     <h5 class="name-title">${student.name}</h5>
                     <p class="house-text">${student.house}</p>
                     <button class="btn btn-danger" id="expell--${student.id}">Expell</button>
