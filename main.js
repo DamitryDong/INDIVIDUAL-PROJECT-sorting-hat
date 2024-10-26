@@ -1,6 +1,6 @@
 
 /////////////////////////////////////////////////////////////////////
-// ARRAY OF STUDENTS 
+// Initial ARRAY OF STUDENTS 
 /////////////////////////////////////////////////////////////////////
 
 const Students = [
@@ -92,7 +92,11 @@ cardsOnDom(Students,Targethtml)
 
 const houseFilter = (array, houseType) => {
     return array.map(student => student.house === houseType ? student : null).filter(student => student !== null);
-};
+};                       //loop through student to see student houses
+                        // ? is used for a ifelse statement (if yes (student)else (null))
+                        //we then use the .filter function which further filter out anything in the new array that has null
+                        //probably not optimal to use a map loop here.
+
 
 //  connecting button
 
