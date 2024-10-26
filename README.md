@@ -17,6 +17,6 @@ Any user
 * Students move to expell list when they are expelled.
 
 ## Screenshots of the project
-<img width="1148" alt="Screenshot of website" src="C:\Users\damit\OneDrive\Pictures\Screenshots\Screenshot 2024-10-26 095515.png">
+<img width="1148" alt="Screenshot of website" src="Screenshot 2024-10-26 095515.png">
 
 ## Link to Loom video walkthrough of the app
